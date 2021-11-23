@@ -1,0 +1,152 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: thistle;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: #283e42;
+    font-size: px;
+    font-weight: bold;
+    font-variant-caps:petite-caps;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:deeppink;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color:  #283e42;
+    font-size: 16px;
+    font-variant: all-small-caps;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color:  #283e42;
+    border-color:#283e42;
+    background-color:thistle;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #283e42;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color::lightseagreen;
+    color: deeppink;
+    fill: deeppink;
+    border-color: deeppink;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-color:#283e42;
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 66px;
+    font-weight: bold;
+    font-variant-caps:all-small-caps;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: deeppink;
+    border-radius: 1pt;
+    border-width: 3pt;
+}
+
+/*** Basic Text Styles ***/
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+    <style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+}
+
+a {
+    color:teal;
+}
+
+a:hover {
+    color:darkslateblue;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    font-variant-caps:all-small-caps;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f7f1fa;
+    color: #242424;
+}
+
+iframe.noScrolling{
+    width: 800px; /*or any other size*/
+    height: 400px; /*or any other size*/
+    overflow: hidden;
+  }
