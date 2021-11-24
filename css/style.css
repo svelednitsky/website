@@ -112,11 +112,7 @@ hr {
 
 p {
     font-size: 20px;
-    <style>
-.aligncenter {
-    text-align: center;
-}
-</style>
+    
 }
 
 a {
@@ -149,4 +145,10 @@ iframe.noScrolling{
     width: 800px; /*or any other size*/
     height: 400px; /*or any other size*/
     overflow: hidden;
+  }
+
+  img {
+      max-width: 100%;
+      height:auto;
+      width:auto\9;
   }
